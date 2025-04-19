@@ -22,6 +22,7 @@ pip install -r requirements. txt
 ![Jaya Jaya Maju Dashboard](https://github.com/user-attachments/assets/e5c8a487-d060-4339-89f5-667b49123067)
 
 Business Dashboard ini menggunakan Looker Studio dengan tujuan untuk memonitor faktor yang berpengaruh dalam atrrition. Dashboard dapat dilihat melalui [link ini](https://lookerstudio.google.com/reporting/e9c46dc9-aa51-4bbb-80a6-98d9f67190e1)
+
 Catatan: untuk mengakses dashboardnya perlu login ke akun Gmail
 ## Conclusion
 * Dari total 1.058 karyawan, sebanyak 179 orang telah keluar, yang berarti tingkat attrition perusahaan saat ini berada di angka 16,92%. Rata-rata usia karyawan adalah 33,47 tahun, dengan rata-rata gaji sebesar Rp6.625,95. Saat ini, jumlah karyawan aktif sebanyak 879 orang.
