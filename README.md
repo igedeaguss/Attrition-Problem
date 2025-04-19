@@ -14,10 +14,17 @@ Proyek ini berfokus pada analisis data untuk mengetahui faktor apa saja yang ber
 
 Setup environment:
 * Install Library yang digunakan
-```
-pip install -r requirements. txt
-```
-  
+  ```
+  pip install -r requirements. txt
+  ```
+* Load model
+  ```
+  best_model = joblib.load('model_xgb.joblib')
+  ```
+* Load dataset
+  ```
+  data_predict = pd.read_csv('Data Prediction Employee.csv')
+  ```
 ## Business Dashboard
 ![Jaya Jaya Maju Dashboard](https://github.com/user-attachments/assets/e5c8a487-d060-4339-89f5-667b49123067)
 
