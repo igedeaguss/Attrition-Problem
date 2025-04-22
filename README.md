@@ -11,6 +11,7 @@ Meskipun Jaya Jaya Maju telah berkembang menjadi perusahaan multinasional dengan
 Proyek ini berfokus pada analisis data untuk mengetahui faktor apa saja yang berpengaruh pada tingkat attrition. Dalam proyek ini juga membuat dashboard untuk memonitor dan mengelola faktor yang berpengaruh dan model machine learning untuk memprediksi potensi karyawan yang resign
 
 ### Persiapan
+Sumber Data : [Data Karyawan](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 Setup environment:
 * Install Library yang digunakan
@@ -28,15 +29,17 @@ Setup environment:
 ## Business Dashboard
 ![Jaya Jaya Maju Dashboard](https://github.com/user-attachments/assets/e5c8a487-d060-4339-89f5-667b49123067)
 
-Business Dashboard ini menggunakan Looker Studio dengan tujuan untuk memonitor faktor yang berpengaruh dalam atrrition. Dashboard dapat dilihat melalui [link ini](https://lookerstudio.google.com/reporting/e9c46dc9-aa51-4bbb-80a6-98d9f67190e1)
+Dashboard ini dibuat untuk memonitor dan menganalisis attrition di perusahaan Jaya Jaya Maju. Dashboard dapat dilihat melalui [link ini](https://lookerstudio.google.com/reporting/e9c46dc9-aa51-4bbb-80a6-98d9f67190e1) Dengan total karyawan 1058, terdapat 179 orang yang mengalami attrition dan menyisakan 879 karyawan aktif dengan rata-rata usia 33,47 tahun dan rata-rata gaji 6.625,95. Angka attrition rate berada di 16,92%. 
+
+Dari segi gender, attrition lebih banyak terjadi pada laki-laki sebanyak 108 (60.3%) dibandingkan dengan perempuan sebanyak 71 (39.7%). Total karyawan laki-laki dan perempuan sebanyak 620 dan 438
+
+Jika dilihat dari status pernikahan, mayoritas attrition terjadi pada karyawan yang single atau belum menikah sebanyak 94 orang (52.5%). Ini menunjukkan bahwa karyawan yang single lebih terbuka pada peluang baru atau berada dalam fase eksplorasi karier. Sementara attrition terendah terjadi pada karyawan dengan status bercerai. 
+
+Berdasarkan Job Role, Laboratory Technician memiliki jumlah attrition tertinggi sebanyak 49 orang, diikuti oleh Sales Executive dan Research Scientist. 
 
 Catatan: untuk mengakses dashboardnya perlu login ke akun Gmail
 ## Conclusion
-* Dari total 1.058 karyawan, sebanyak 179 orang telah keluar, yang berarti tingkat attrition perusahaan saat ini berada di angka 16,92%. Rata-rata usia karyawan adalah 33,47 tahun, dengan rata-rata gaji sebesar Rp6.625,95. Saat ini, jumlah karyawan aktif sebanyak 879 orang.
-* Jika dilihat dari gender, laki-laki menyumbang sekitar 60% dari total attrition. Sedangkan dari status pernikahan, karyawan yang sudah menikah mendominasi angka attrition, yaitu sebesar 52%.
-* Job role dengan attrition tertinggi adalah Laboratory Technician dan Sales Executive. Sementara berdasarkan departemen, Research & Development memiliki jumlah attrition terbanyak, disusul oleh Sales. Hal ini bisa menjadi perhatian khusus terkait beban kerja atau kepuasan kerja di dua divisi ini.
-* Dari segi pendidikan, karyawan dengan gelar Sarjana (Bachelor) dan Master memiliki jumlah attrition paling tinggi. Bisa jadi karena kelompok ini memiliki lebih banyak opsi karier dan peluang di luar.
-* Attrition paling tinggi terjadi pada rentang usia 25 hingga 35 tahun. Setelah usia 40 tahun, angka attrition menurun signifikan. Artinya, karyawan usia muda cenderung lebih mudah berpindah pekerjaan, baik karena kebutuhan perkembangan karier maupun ketidakpuasan.
+
 
 ### Rekomendasi Action Items (Optional)
 * Fokus pada strategi retensi untuk usia muda, khususnya di usia 25–35 tahun.
