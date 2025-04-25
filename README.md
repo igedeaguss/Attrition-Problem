@@ -14,7 +14,7 @@ Proyek ini berfokus pada analisis data untuk mengetahui faktor apa saja yang ber
 Sumber Data : [Data Karyawan](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 Setup environment:
-* Unduh tiga file utama yaitu model_xgb.joblib, requirements.txt , prediction.py
+* Unduh tiga file utama yaitu model_xgb.joblib, requirements.txt , Prediksi.py
 * Set Environment
   ```
   python -m venv env
@@ -33,9 +33,9 @@ Setup environment:
       ```
       data_predict = pd.read_csv('Data Prediction Employee.csv')
       ```
-* Run prediction.py
+* Run Prediksi.py
   ```
-  python prediction.py
+  python Prediksi.py
   ```
 ## Business Dashboard
 ![gedeaguss-Dashboard](https://github.com/user-attachments/assets/efa7fa0f-f2f1-4d8c-b55e-c68c5bcf3f9a)
